@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Heena | Gallery / Galería  </title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar">
+
+    <a href="index.html" class="logo">
+        ✨ EcoHenna Web
+    </a>
+
+    <div class="navLinks">
+
+        <a href="index.html">Home</a>
+
+        <a href="gallery.html">Gallery</a>
+
+        <a href="reviews.html">Reviews</a>
+
+        <a href="appointment.html">Appointment</a>
+
+    </div>
+
+</nav>
+
+    <!-- Fondo -->
+    <div class="background"></div>
+
+    <main class="container">
+
+        <h1>Gallery</h1>
+
+        <p class="hint">
+            Check out some of our work and some tattoo designs 🥰
+            / Echa un vistazo a algunos de nuestros trabajos y algunos diseños de tatuajes 🥰
+        </p>
+
+        <!-- Botones -->
+
+        <div class="galleryTabs">
+
+            <button class="tab active"
+                    onclick="showGallery('work', this)">
+                Our Work / Nuestro Trabajo
+            </button>
+
+            <button class="tab"
+                    onclick="showGallery('designs', this)">
+                Design Ideas / Ideas de Diseño
+            </button>
+
+        </div>
+
+        <!-- Aquí aparecerán las imágenes -->
+
+        <div class="galleryGrid" id="galleryGrid">
+
+        </div>
+
+        <div class="buttons">
+
+            <a href="index.html" class="galleryButton">
+                ← Back to Home
+            </a>
+
+        </div>
+
+    </main>
+
+    <!-- Imagen ampliada -->
+
+    <div id="viewer" class="viewer" onclick="closeImage()">
+
+        <img id="viewerImg">
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

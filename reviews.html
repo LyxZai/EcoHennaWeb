@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Heena | Reviews</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar">
+
+    <a href="index.html" class="logo">
+        ✨ EcoHenna Web
+    </a>
+
+    <div class="navLinks">
+
+        <a href="index.html">Home</a>
+
+        <a href="gallery.html">Gallery</a>
+
+        <a href="reviews.html">Reviews</a>
+
+        <a href="appointment.html">Appointment</a>
+
+    </div>
+
+</nav>
+
+<div class="background"></div>
+
+<main class="container">
+
+    <h1>Reviews / Reseñas</h1>
+
+    <p class="hint">
+        We'd love to hear about your experience! ❤️ /
+        ¡Nos encantaría saber sobre tu experiencia! ❤️
+
+    </p>
+
+    <div class="reviewForm">
+
+        <input
+            type="text"
+            id="reviewName"
+            placeholder="Your name">
+
+        <select id="reviewStars">
+
+            <option value="★★★★★">★★★★★</option>
+            <option value="★★★★☆">★★★★☆</option>
+            <option value="★★★☆☆">★★★☆☆</option>
+            <option value="★★☆☆☆">★★☆☆☆</option>
+            <option value="★☆☆☆☆">★☆☆☆☆</option>
+
+        </select>
+
+        <textarea
+            id="reviewMessage"
+            placeholder="Tell us about your experience.../ Cuéntanos sobre tu experiencia..."></textarea>
+
+        <button
+            class="galleryButton"
+            onclick="addReview()">
+
+            Submit Review
+
+        </button>
+
+    </div>
+
+    <div
+        class="reviewsGrid"
+        id="reviewsContainer">
+
+    </div>
+
+    <div class="buttons">
+
+        <a
+            href="index.html"
+            class="galleryButton">
+
+            ← Back to Home
+
+        </a>
+
+    </div>
+
+</main>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

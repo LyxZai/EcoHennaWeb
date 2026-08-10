@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Heena</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar">
+
+    <a href="index.html" class="logo">
+        ✨ EcoHenna Web
+    </a>
+
+    <div class="navLinks">
+
+        <a href="index.html">Home</a>
+
+        <a href="gallery.html">Gallery</a>
+
+        <a href="reviews.html">Reviews</a>
+
+        <a href="appointment.html">Appointment</a>
+
+    </div>
+
+</nav>
+
+    <!-- Fondo -->
+    <div class="background"></div>
+
+    <main class="container">
+
+        <h1>
+            Welcome to EcoHenna / Bienvenido a EcoHeena!
+        </h1>
+
+        <p class="hint">
+          Take a look at some of our work⭐/ Echa un vistazo a algunos de nuestros trabajos⭐
+        </p>
+
+   <section class="carousel">
+
+    <button class="arrow left" onclick="previousImage()">
+        &#10094;
+    </button>
+
+    <div class="carousel-track" id="gallery">
+
+        <!-- Las imágenes aparecerán automáticamente -->
+    </div>
+
+    <button class="arrow right" onclick="nextImage()">
+        &#10095;
+    </button>
+
+</section>
+
+        <button class="galleryButton" onclick="location.href='gallery.html'">
+    See more designs / Mira mas diseños
+</button>
+
+    </main>
+
+    <!-- Imagen ampliada -->
+
+    <div id="viewer" class="viewer" onclick="closeImage()">
+
+        <img id="viewerImg">
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+    
+    <!-- Tutorial -->
+
+<section class="tutorialSection">
+
+    <h2>How do you use our kit? / ¿Cómo se utiliza nuestro kit?</h2>
+
+    <p class="tutorialText">
+
+        Watch this video tutorial before using our product 🎯/ 
+        Mira este tutorial de video antes de usar nuestro producto 🎯
+
+    </p>
+
+    <video controls class="tutorialVideo">
+
+        <source src="assets/tutorial.mp4" type="video/mp4">
+
+        Your browser does not support the video tag.
+
+    </video>
+
+</section>
+
+<!-- Espacio -->
+
+<div class="sectionSpacer"></div>
+
+<!-- Mission -->
+
+<section class="infoSection">
+
+    <h2>Our Mission / Nuestra Misión</h2>
+
+    <p>
+
+        Our mission is to provide elegant, creative, and high-quality nail designs that help every client express their unique style while receiving professional and friendly service. / 
+        
+        Nuestra misión es ofrecer diseños de uñas elegantes, creativos y de alta calidad que ayuden a cada cliente a expresar su estilo único mientras recibe un servicio profesional y amigable.
+
+    </p>
+
+</section>
+
+<!-- Vision -->
+
+<section class="infoSection">
+
+    <h2>Our Vision / Nuestra Visión
+    
+    </h2>
+
+    <p>
+
+        Our vision is to become a trusted nail studio recognized for creativity, quality, and an exceptional experience for every client.
+        / Nuestra visión es convertirnos en un estudio de uñas confiable reconocido por la creatividad, la calidad y una experiencia excepcional para cada cliente.
+
+    </p>
+
+</section>
+
+   <section class="tutorialSection">
+
+    <p class="tutorialText">
+
+        By: Luisa Carrillo, Juan Castañeda, Esteban Gacha, Paula Gómez and Estefanny Ocampo
+        1101
+
+    </p>
+
+
+</body>
+
+</html>
